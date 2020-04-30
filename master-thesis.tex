@@ -1,4 +1,4 @@
-\documentclass[specification,annotation,times]{itmo-student-thesis}
+\documentclass[times]{itmo-student-thesis}
 
 %% Опции пакета:
 %% - specification - если есть, генерируется задание, иначе не генерируется
@@ -47,7 +47,7 @@
 
 @article{ example-russian,
     author      = {Максим Викторович Буздалов},
-    title       = {Генерация тестов для олимпиадных задач по программированию 
+    title       = {Генерация или нет тестов для олимпиадных задач по программированию 
                    с использованием генетических алгоритмов},
     journal     = {Научно-технический вестник {СПбГУ} {ИТМО}},
     number      = {2(72)},
@@ -170,7 +170,72 @@
 %% Макрос для введения. Совместим со старым стилевиком.
 \startprefacepage
 
-В данном разделе размещается введение.
+{\large \textbf{Актуальность работы}}
+\bigbreak
+
+{\large О компании Fulldive}
+\\
+Успех VR приложения и, как следствие, появление идеи развития браузера
+\bigbreak
+
+{\large Идеология браузера:}
+\begin{itemize}
+	\item убирать всю рекламу на сайтах
+	\item вместо нее показывать собственную рекламу
+	\item прибыль полученную за публикацию своей рекламы делить с пользователями пополам
+\end{itemize}
+\bigbreak
+
+{\large Плюсы:}
+\begin{itemize}
+	\item "органическое" привлечение пользователей, желающих монетизировать свое времяпрепровождении в интернете
+	\item у наших пользователей появляется возможность монетизировать свое время, проведенное в интернете (данный вид заработка особенно актуален в странах с низким уровнем доходов и занятости населения. Молодые люди, проходящие обучение в средних или высших учебных заведениях, так или иначе использующие интернет в своих образовательных и развлекательных целях, теперь могут еще и получать за это деньги. Более того, подобный способ получение дохода как никогда актуален в текущий период мирового экономического кризиса, массового сокращения рабочих мест и увеличение доли малообеспеченного населения).
+\end{itemize}
+\bigbreak
+
+{\large Минусы:}
+\begin{itemize}
+	\item крупные рекламные площадки либо не одобряют такую схему разделения доходов, либо пока относятся к этому индифферентно
+\end{itemize}
+\bigbreak
+
+\bigbreak
+{\large \textbf{Цели и задачи работы}}
+\bigbreak
+
+Целью данной работы является создание собственной рекламной сети \textbf{UniAds}, для достижения которой необходимо разработать соответствующее программное обеспечение.
+\\
+Для удобства и простоты понимания нижеприведенных задач, под аббревиатурой ПО будем понимать "программное обеспечение необходимое для функционирования рекламной сети".
+Для разработки ПО согласно каскадной модели разработки необходимо выполнить следующие задачи (каскадный процесс разработки ПО):
+\begin{itemize}
+	\item сформировать требования к ПО
+	\item ? провести анализ предметной области на основе разработанных требований: существуют ли готовые решения или отдельные компоненты
+	\item спроектировать архитектуру ПО
+	\item реализовать ПО на основе требований и модели архитектуры
+	\item протестировать итоговое ПО
+	\item внедрить ПО
+\end{itemize}
+\bigbreak
+
+\bigbreak
+{\large \textbf{Практическое значение работы}} (причины создания собственной рекламной сети)
+\bigbreak
+
+\begin{enumerate}
+	\item Диверсификация риска сокращения прибыли, получаемой компанией за осуществление показов рекламы, из-за прекращения сотрудничества с основными рекламными сетями
+	\item Возможность гибкого контроля и индивидуальной конфигурации рекламных материалов в мобильных приложениях компании
+	\item Возможность привлечения сторонних рекламодателей в различных странах
+\end{enumerate}
+\bigbreak
+
+(большая аудитория VR приложения (в каких странах пользуются?) -> (гипотеза) ожидается рост аудитории браузера (желательно сроки и цифры, хотя бы примерно) в таких-то странах (список на основе статистики использования Browser / VR (так как можно перелить часть аудитории в браузер)) -> (гипотеза) в этих странах локальные рекламодатели, которые захотят получить доступ к нашей аудитории? (нужна ли она им? скорее всего да, если довольно большая) -> (гипотеза) используют нашу рекламную сеть (какие есть конкуренты? почему они должны выбрать именно нас?)
+\bigbreak
+
+\bigbreak
+{\large \textbf{Краткое описание структуры работы}}
+\bigbreak
+
+В Главе X рассмотрен вопрос…
 
 %% Начало содержательной части.
 \chapter{Первая глава}
@@ -180,6 +245,7 @@
 Пример ссылок в рамках обзора: \cite{example-english, example-russian, unrestricted-jump-evco, nsga-ii-steady-state}.
 %% Так помечается конец обзора.
 \finishrelatedwork
+
 Вне обзора:~\cite{bellman}.
 
 \section{Таблицы}\label{sec:tables}
@@ -239,28 +305,22 @@ Metapost. Последний можно использовать и под \text
 из пакета \texttt{listings}, который уже включается в стилевике и немного настроен. Пример Hello World на Java
 приведен на листинге~\ref{lst1}. Пример большого листинга~--- в приложении (листинг~\ref{lstX}).
 
-\begin{lstlisting}[style=ES6,float=!h,caption={Пример исходного кода на Java},label={lst1}]
-export class StrategyStateResolver {
-    constructor(
-        private readonly strategyStateRepository: StrategyStateRepository,
-        private readonly sessionRepository: SessionRepository
-    ) {
+\begin{lstlisting}[float=!h,caption={Пример исходного кода на Java},label={lst1}]
+	constructor(
+        public readonly trackRepository: TrackRepository, // TODO make private
+        public readonly impressionRepository: ImpressionRepository, // TODO make private
+        public readonly clickRepository: ClickRepository // TODO make private
+    ) {}
+
+    public async createTrack(adId: string, unitId: string, strategyId: number = 0): Promise<Track> {
+        const track = new Track(adId, unitId, strategyId)
+        await this.trackRepository.insert(track)
+        return track
     }
 
-    public async resolveKey(sessionKey: Session.Key, strategyId: StrategyId, threadId: string): Promise<StrategyState.Key> {
-        let session = await this.sessionRepository.get(sessionKey)
-        if (!session) {
-            const lastStateKey =
-                await this.strategyStateRepository.getThreadLastStateKey(strategyId, threadId)
-            if (!lastStateKey) {
-                throw new Error(`There are no states for strategy=${strategyId} and thread=${threadId}`)
-            }
-            session = new Session(sessionKey, new Session.Value(lastStateKey))
-            await this.sessionRepository.save(session)
-        }
-        return session.value.strategyStateKey
+    public async getTrackById(trackId: string): Promise<Track | null> {
+        return this.trackRepository.getById(trackId)
     }
-}
 \end{lstlisting}
 
 Псевдокод можно оформлять с помощью разных пакетов. В данном стилевике включается пакет \texttt{algorithmicx}.
