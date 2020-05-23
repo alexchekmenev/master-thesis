@@ -1,0 +1,61 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {russian}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{ВВЕДЕНИЕ}{5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Обзор предметной области}{7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Используемые термины и понятия}{7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Основной бизнес-процесс}{9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Постановка задачи}{9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.4}Требования}{10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.5}Обзор существующих решений}{11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Выводы по главе\nobreakspace 1}{11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Описание предложенного решения}{12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Клиент-серверное взаимодействие}{12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.1}Получение рекламного объявления}{12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.2}Получение списка рекламных объявлений}{12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.3}Трекинг показов и переходов}{12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.4}Получение статистики по стратегиям и рекламных объявлениям}{12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Таргетирование}{13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Актуализация рекламных материалов}{13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.4}Актуализация рекламного инвентаря}{13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Выводы по главе\nobreakspace 2}{13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Техническая реализация и внедрение предложенной архитектуры}{14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Техническая подзадача 1}{14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Техническая подзадача 2}{14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Техническая подзадача 3}{14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}Техническая подзадача 4}{14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.5}Техническая подзадача 5}{14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.6}Техническая подзадача 6}{14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Выводы по главе\nobreakspace 3}{14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{ЗАКЛЮЧЕНИЕ}{15}%
+\defcounter {refsection}{0}\relax 
+\ttl@change@i {\@ne }{chapter}{\appendixPrefix }{}{\contentslabel [\@appendixname ~\thecontentslabel .]{\the \appendixPrefix }}{\hspace *{-\the \appendixPrefix }}{\titlerule *[0.5pc]{.}\contentspage }\relax 
+\defcounter {refsection}{0}\relax 
+\ttl@change@v {chapter}{}{}{}\relax 
+\contentsfinish 
