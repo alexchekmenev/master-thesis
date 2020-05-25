@@ -1,3 +1,11 @@
 .texpadtmp
 *.pdf
-
+master-thesis.aux
+master-thesis.bib
+master-thesis.synctex.gz
+master-thesis.tex
+master-thesis.bcf
+master-thesis.log
+master-thesis.run.xml
+master-thesis.tct
+master-thesis.toc
